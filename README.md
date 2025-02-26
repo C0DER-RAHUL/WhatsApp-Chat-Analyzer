@@ -22,7 +22,28 @@ Features 🚀
 
 🔥 Activity Heatmap – Visualize active periods in chats.
 
+Installation 🛠️
 
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+cd whatsapp-chat-analyzer
+
+2. Install Dependencies
+Make sure you have Python 3.x installed. Then run:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+
+3. Run the Application
+bash
+Copy
+Edit
+python app.py
 
  
  
