@@ -45,5 +45,29 @@ Copy
 Edit
 python app.py
 
- 
+
+
+
+
+Usage Guide 📖
+
+
+1. Export WhatsApp Chat
+Open WhatsApp → Chat Settings → Export Chat → Without Media.
+Save the .txt file.
+
+2. Upload & Analyze
+Upload the .txt file to the app.
+Select a user or analyze the overall chat.
+View message stats, word clouds, emoji usage, activity patterns, and more!
+
+
+
+Technologies Used 🏗️
+Python 🐍
+Pandas 📊
+Matplotlib & Seaborn 📈
+WordCloud ☁️
+Emoji 😊
+Streamlit 🎨
  
