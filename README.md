@@ -1,73 +1,96 @@
-# whatsapp-chat-analysis
-A streamlit app to analyze your whatsapp chats
+# 📊 WhatsApp Chat Analyzer  
 
-Live Link:  https://whatsapp-chat-analyzer-p.streamlit.app/
+A **Streamlit** web application to analyze **WhatsApp chat data** with statistics, visualizations, and insights.  
 
-WhatsApp Chat Analyzer 📊💬
-Analyze WhatsApp chat data with statistics, visualizations, and insights!
+🔗 **Live Demo**: [WhatsApp Chat Analyzer](https://whatsapp-chat-analyzer-p.streamlit.app/)  
 
-Features 🚀
+## 🚀 Features  
 
-📈 Message Statistics – Total messages, words, media, and links shared.
+✅ **Message Statistics** – Total messages, words, media, and links shared.  
+✅ **Most Active Users** – Identify the most frequent contributors.  
+✅ **Word Cloud** – Generate a word cloud after removing stop words.  
+✅ **Most Common Words** – Find frequently used words.  
+✅ **Emoji Analysis** – Detect and count emojis used in chats.  
+✅ **Monthly & Daily Activity** – Track chat activity over time.  
+✅ **Activity Heatmap** – Visualize active periods in chats.  
 
-👥 Most Active Users – Identify the most frequent contributors.
+---
 
-☁️ Word Cloud – Generate a word cloud after removing stop words.
+## 🛠️ Installation  
 
-🔝 Most Common Words – Find frequently used words.
-
-😊 Emoji Analysis – Detect and count emojis used in chats.
-
-📆 Monthly & Daily Activity – Track chat activity over time.
-
-🔥 Activity Heatmap – Visualize active periods in chats.
-
-Installation 🛠️
-
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone  github.com/your-username/whatsapp-chat-analyzer.git
+1️⃣ **Clone the Repository**  
+```bash
+git clone https://github.com/your-username/whatsapp-chat-analyzer.git
 cd whatsapp-chat-analyzer
+```
 
-2. Install Dependencies
-Make sure you have Python 3.x installed. Then run:
-
-bash
-Copy
-Edit
+2️⃣ **Install Dependencies**  
+Make sure you have **Python 3.x** installed. Then run:  
+```bash
 pip install -r requirements.txt
+```
 
-3. Run the Application
-bash
-Copy
-Edit
+3️⃣ **Run the Application**  
+```bash
 python app.py
+```
 
+---
 
+## 📖 Usage Guide  
 
+### 1️⃣ Export WhatsApp Chat  
+- Open **WhatsApp** → **Chat Settings** → **Export Chat** → **Without Media**.  
+- Save the `.txt` file.  
 
+### 2️⃣ Upload & Analyze  
+- Upload the `.txt` file to the app.  
+- Select a user or analyze the overall chat.  
+- View **message stats, word clouds, emoji usage, activity patterns, and more!**  
 
-Usage Guide 📖
+---
 
+## 🏗️ Technologies Used  
 
-1. Export WhatsApp Chat
-Open WhatsApp → Chat Settings → Export Chat → Without Media.
-Save the .txt file.
+🔹 **Python** 🐍  
+🔹 **Pandas** 📊  
+🔹 **Matplotlib & Seaborn** 📈  
+🔹 **WordCloud** ☁️  
+🔹 **Emoji** 😊  
+🔹 **Streamlit** 🎨  
 
-2. Upload & Analyze
-Upload the .txt file to the app.
-Select a user or analyze the overall chat.
-View message stats, word clouds, emoji usage, activity patterns, and more!
+---
 
+## 📂 Project Structure  
 
+```plaintext
+📁 whatsapp-chat-analyzer
+│── 📜 app.py                # Main application file
+│── 📜 helper.py             # Helper functions for analysis
+│── 📜 requirements.txt      # Dependencies
+│── 📜 README.md             # Documentation
+│── 📁 dataset               # Sample WhatsApp chat files (if applicable)
+```
 
-Technologies Used 🏗️
-Python 🐍
-Pandas 📊
-Matplotlib & Seaborn 📈
-WordCloud ☁️
-Emoji 😊
-Streamlit 🎨
+---
+
+## 🤝 Contributing  
+
+Feel free to contribute by:  
+✅ Adding new features  
+✅ Optimizing performance  
+✅ Fixing bugs or enhancing visualization  
+
+---
+
+## 📜 License  
+
+This project is **MIT Licensed** – Free to use and modify!  
+
+---
+
+## ✨ Author  
+
+👨‍💻 **Rahul Yadav**  
+
  
