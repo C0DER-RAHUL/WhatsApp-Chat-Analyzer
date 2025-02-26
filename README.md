@@ -28,7 +28,7 @@ Installation 🛠️
 bash
 Copy
 Edit
-git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+git clone  github.com/your-username/whatsapp-chat-analyzer.git
 cd whatsapp-chat-analyzer
 
 2. Install Dependencies
